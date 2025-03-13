@@ -1,27 +1,24 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Century Gothic", sans-serif;
+    font-family: century;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
-                      url(e20a60df91c528a9e4f4c9168181e86.jpg);
-    width: 100%;
+header{
+    background-image:linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)), url(e206a60df91c528a9ef4fc9168181e86.jpg);
+    width: 219vh;
     height: 330vh;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     overflow: hidden;
 }
 
-h1 {
+h1{
     position: absolute;
     top: 43%;
     left: 30%;
     font-size: 70px;
     color: red;
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-    text-underline-offset: 5px;
+    text-decoration: 3px underline;
 }
